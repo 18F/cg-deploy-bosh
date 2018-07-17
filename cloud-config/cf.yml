@@ -1,12 +1,12 @@
 vm_types:
 - name: minimal
   cloud_properties:
-    instance_type: m4.large
+    instance_type: m5.large
     ephemeral_disk:
       size: 10240
 - name: small
   cloud_properties:
-    instance_type: m4.large
+    instance_type: m5.large
     ephemeral_disk:
       size: 10240
 - name: small-highmem
